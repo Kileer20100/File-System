@@ -2,6 +2,7 @@
 #include "write.h"
 
 
+
 int main(){
     unsigned short b = 30;
     char login [15], password [15];

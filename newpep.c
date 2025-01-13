@@ -38,3 +38,16 @@ int authentication(char name_aut_p_[15],char password_aut_p_[15]){
     }
     return a;
 }
+
+int pasword_aut(char password_2_aut[15]){
+    int F = 0;
+    if (strcmp(password_, password_2_aut) == 0)
+    {
+        F = 1;
+    }
+    else
+    {
+        F = 0;
+    }
+    return F;
+}
